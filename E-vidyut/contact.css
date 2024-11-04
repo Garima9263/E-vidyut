@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px ;
+    background-color: #fafcfa;
+    box-shadow: 2px 2px rgb(160, 152, 152);
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li{
+    margin-left:60px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Merriweather Sans", sans-serif;
+
+}
+nav ul li a:hover{
+      color: blue;
+}
+.bird{
+    height: 40px;
+    width: 280px;
+    object-fit: cover;
+    padding-left: 10px;
+}
+.container{
+    height: 70vh;
+    width: 100wv;
+    background-color: #0ab657;
+    display: flex;
+    justify-content: center;
+}
+
+.gb1{
+    height: 50vh;
+    width: 280px;
+    margin-right: 10px;
+    margin-top: 80px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.gb2{
+    height: 50vh;
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 80px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.gb3{
+    height: 50vh;
+    width: 280px;
+    padding-left: 10px;
+    margin-top: 80px;
+  border-radius: 5px;
+  margin-left: 30px;
+  position: static;
+}
+
+.con1{
+    height:250px;
+    width: 33.33%;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-left: 1px solid rgb(39, 31, 31);
+    border-right: 1px solid rgb(39, 31, 31);
+    border-top: 1px solid rgb(39, 31, 31);
+}
+.con2{
+    height:250px;
+    width: 33.33%;
+    background-color: black;
+    padding-left: 120px;
+    padding-top: 30px;
+    border-left: 1px solid rgb(39, 31, 31);
+    border-right: 1px solid rgb(39, 31, 31);
+    border-top: 1px solid rgb(39, 31, 31);
+}
+.con3{
+    height:250px;
+    width: 33.33%;
+    background: black;
+    padding-left: 110px;
+    padding-top: 30px;
+    border-left: 1px solid rgb(39, 31, 31);
+    border-right: 1px solid rgb(39, 31, 31);
+    border-top: 1px solid rgb(39, 31, 31);
+    
+}
+.imgtext>p{
+    font-size: 10px;
+}
+.ph{
+    height: 300px;
+    width: 100%;
+    background: black;
+    display: flex;
+    margin-top: 2px;
+}.foot{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #fafcfa;
+}
+p{
+    font-size:20px;
+    color: black;
+    font-weight: bold;
+}
+.busi{
+    height: 50vh;
+    width: 100%;
+    background-color: #fafcfa;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cost{
+    height: 28vh;
+    width: 100%;
+    background-color: #fafcfa;
+    display: flex;
+}
+.contact{
+    height: 15vh;
+    width: 25%;
+    background-color:  #12a052;
+    margin-top: 40px;
+    border-radius: 5%;
+    font-size: 30px;
+    margin-left: 290px;
+    border: 2px solid black;
+}
+.message{
+    height: 15vh;
+    width: 25%;
+    background-color: #12a052;
+    margin-top: 40px;
+    border-radius: 5%;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+.message:hover{
+    background-color: #138647;
+    color: #fafcfa;
+    border: 2px solid black;
+}
+.contact:hover{
+    background-color: #138647;
+    color: #fafcfa;
+    border: 2px solid black;
+}
+#b{
+    height: 40vh;
+    width: 30%;
+    background-color:  rgb(226, 223, 223);
+    border-radius: 5%;
+}
+.forb{
+    font-size: 40px; 
+    padding-left: 80px;
+     color: #0c8140;
+    font-family: "Merriweather Sans", sans-serif;
+    padding-top: 10px;
+}
+#c{
+    height: 40vh;
+    width: 30%;
+    background-color:  rgb(226, 223, 223);
+    border-radius: 5%;
+}
+.forc{
+ font-size: 40px;
+ padding-left: 70px;
+ padding-top: 10px;
+ color: #0c8140;
+ font-family: "Merriweather Sans", sans-serif;
+}
+#bc{
+    height: 22vh;
+    width: 75%;
+    background-color:  white;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
+#cc{
+    height: 22vh;
+    width: 75%;
+    background-color:  white;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
